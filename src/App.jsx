@@ -2,6 +2,7 @@ import React from 'react'
 import './App.css'
 import About from './components/About'
 import CTA from './components/CTA'
+import Footer from './components/Footer'
 import Hero from './components/Hero'
 import Logos from './components/Logos'
 import Navbar from './components/Navbar'
@@ -16,6 +17,7 @@ function App() {
       <Projects />
       <About />
       <CTA />
+      <Footer />
     </div>
   )
 }
