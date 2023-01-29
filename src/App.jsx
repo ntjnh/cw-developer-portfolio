@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css'
 import About from './components/About'
+import CTA from './components/CTA'
 import Hero from './components/Hero'
 import Logos from './components/Logos'
 import Navbar from './components/Navbar'
@@ -14,6 +15,7 @@ function App() {
       <Logos />
       <Projects />
       <About />
+      <CTA />
     </div>
   )
 }
