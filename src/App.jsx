@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css'
+import About from './components/About'
 import Hero from './components/Hero'
 import Logos from './components/Logos'
 import Navbar from './components/Navbar'
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <Logos />
       <Projects />
+      <About />
     </div>
   )
 }
