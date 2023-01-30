@@ -1,6 +1,6 @@
 export default function Logos() {
     return (
-        <section className="logos">
+        <section className="bg-black">
             <img src="./src/assets/logos/walmart.svg" />
             <img src="./src/assets/logos/jpmorgan.svg" />
             <img src="./src/assets/logos/visa.svg" />
