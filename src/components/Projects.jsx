@@ -2,7 +2,7 @@ import Project from './Project'
 
 export default function Projects(props) {
     return (
-        <section className="projects">
+        <section className="projects bg-black">
             <Project
                 img="spense.png"
                 title="Spense.com"
