@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
-        <footer>
-            <h3 className="name">Name Surname</h3>
+        <footer className="bg-black">
+            <h3 className="font-serif font-normal text-white">Name Surname</h3>
 
             <ul>
                 <li>
