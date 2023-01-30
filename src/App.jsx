@@ -10,7 +10,7 @@ import Projects from './components/Projects'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App text-grey">
       <Navbar />
       <Hero />
       <Logos />
