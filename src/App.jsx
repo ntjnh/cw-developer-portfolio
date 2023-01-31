@@ -10,14 +10,16 @@ import Projects from './components/Projects'
 
 function App() {
   return (
-    <div className="App text-grey">
-      <Navbar />
-      <Hero />
-      <Logos />
-      <Projects />
-      <About />
-      <CTA />
-      <Footer />
+    <div className="App">
+      <main className="text-grey">
+        <Navbar />
+        <Hero />
+        <Logos />
+        <Projects />
+        <About />
+        <CTA />
+        <Footer />
+      </main>
     </div>
   )
 }
