@@ -6,6 +6,9 @@ module.exports = {
       sans: ['Inter', 'sans-serif'],
       serif: ['Prata', 'serif'],
     },
+    container: {
+      center: true,
+    },
     extend: {
       colors: {
         'black': '#0a0a0b',
