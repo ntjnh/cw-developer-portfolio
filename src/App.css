@@ -3,5 +3,7 @@
 @tailwind utilities;
 
 .container {
-    max-width: 79.1666% !important;
+    @media screen(md) {
+        max-width: 79.1666% !important; /* make this start on medium screens */
+    }
 }
