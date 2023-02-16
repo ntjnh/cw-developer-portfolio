@@ -1,10 +1,10 @@
 export default function Footer() {
     return (
-        <footer className="bg-darkgrey py-9">
-            <div className="container flex align-center justify-between">
+        <footer className="bg-darkgrey py-6">
+            <div className="container flex align-center justify-between md:max-w-[1140px]">
                 <h3 className="font-serif font-normal text-white">Name Surname</h3>
 
-                <ul>
+                <ul className="leading-none">
                     <li className="inline-block px-2">
                         <a href="#">
                             <img src="./src/assets/social-icons/twitter.svg" />
