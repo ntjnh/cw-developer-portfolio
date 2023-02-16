@@ -1,7 +1,7 @@
 export default function Logos() {
     return (
         <section className="bg-black py-9">
-            <div className="container align-center flex justify-between">
+            <div className="container align-center flex justify-between md:max-w-[1140px]">
                 <img className="inline-block" src="./src/assets/logos/walmart.svg" />
                 <img className="inline-block" src="./src/assets/logos/jpmorgan.svg" />
                 <img className="inline-block" src="./src/assets/logos/visa.svg" />
