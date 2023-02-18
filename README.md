@@ -62,9 +62,7 @@ const proudOfThisFunc = () => {
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I made the mistake of starting with the desktop design, which meant I had to then work my way down. I didn't do it on purpose, it was more absent-mindedness on my part. I do prefer the mobile-first approach but because of how backwards the dev process is in my current job, that's how most of the websites are built. Too much importance is places on desktop when that isn't even the most common device for most websites. So because of this, when we are given websites to build, we always get desktop designs only. So this is a very bad habit that I am _desperately_ trying to break.
 
 ### Useful resources
 
