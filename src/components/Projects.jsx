@@ -2,8 +2,8 @@ import Project from './Project'
 
 export default function Projects(props) {
     return (
-        <section className="projects bg-black py-20">
-            <div className="container flex justify-between md:max-w-[1140px]">
+        <section className="projects bg-black px-5 md:px-0 pt-16 pb-10 md:py-20">
+            <div className="container flex flex-wrap justify-between md:max-w-[1140px]">
                 <Project
                     img="spense.png"
                     title="Spense.com"
