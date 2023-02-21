@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <footer className="bg-darkgrey py-6">
+        <footer className="bg-darkgrey px-5 md:px-0 py-6">
             <div className="container flex align-center justify-between md:max-w-[1140px]">
                 <h3 className="font-serif font-normal text-white">Name Surname</h3>
 
