@@ -1,6 +1,6 @@
 export default function Verizon() {
     return (
-        <div className="inline-block px-8 lg:px-0">
+        <div className="inline-block pl-4 md:px-8 lg:px-0">
             <svg width="109" height="24" viewBox="0 0 109 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clipPath="url(#verclip0)">
                     <path d="M106.616 0L100.715 12.6247L98.4959 7.8411H96.0959L99.7452 15.6658H101.685L109 0H106.616Z" fill="#ADADAD"/>
