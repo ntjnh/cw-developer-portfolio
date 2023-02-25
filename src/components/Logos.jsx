@@ -1,5 +1,6 @@
 import Walmart from "../assets/logos/Walmart"
 import JPMorgan from "../assets/logos/JPMorgan"
+import Visa from "../assets/logos/Visa"
 import Tinder from "../assets/logos/Tinder"
 
 export default function Logos() {
