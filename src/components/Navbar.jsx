@@ -1,11 +1,11 @@
 import menuIcon from '../assets/hamburger-menu.svg'
 
 export default function Navbar() {
-    const menu = document.getElementsByClassName("menu")[0];
-
     const toggleMenu = () => {
-        menu.classList.toggle("hidden")
-        menu.classList.toggle("block")
+        const items = document.getElementById("toggle-items")
+
+        items.classList.toggle("hidden")
+        items.classList.toggle("flex")
     }
 
     return (
@@ -17,14 +17,16 @@ export default function Navbar() {
                     <img src={menuIcon} alt="menu toggle" />
                 </button>
 
-                <ul className="menu hidden lg:block mt-4 lg:mt-0 text-center w-full lg:w-auto">
-                    <li className="inline-block text-lg px-2 lg:px-4"><a className="text-grey" href="#">Articles</a></li>
-                    <li className="inline-block text-lg px-2 lg:px-4"><a className="text-grey" href="#">Chats</a></li>
-                    <li className="inline-block text-lg px-2 lg:px-4"><a className="text-grey" href="#">Awards</a></li>
-                    <li className="inline-block text-lg px-2 lg:px-4"><a className="text-grey" href="#">About</a></li>
-                </ul>
+                <div id="toggle-items" className="hidden lg:flex mt-4 lg:mt-0 mx-auto lg:mx-0 flex-wrap items-center justify-between w-max md:w-4/5 lg:w-2/3">
+                    <ul className="inline-block text-center">
+                        <li className="inline-block text-md lg:text-lg px-2 lg:px-4"><a className="text-grey" href="#">Articles</a></li>
+                        <li className="inline-block text-md lg:text-lg px-2 lg:px-4"><a className="text-grey" href="#">Chats</a></li>
+                        <li className="inline-block text-md lg:text-lg px-2 lg:px-4"><a className="text-grey" href="#">Awards</a></li>
+                        <li className="inline-block text-md lg:text-lg px-2 lg:px-4"><a className="text-grey" href="#">About</a></li>
+                    </ul>
 
-                <a className="bg-yellow font-serif hidden lg:inline-block leading-none no-underline px-4 lg:px-9 py-3 lg:py-5 text-black text-lg" href="#">Get in touch</a>
+                    <a className="bg-yellow font-serif inline-block leading-none no-underline mt-4 md:mt-0 px-4 lg:px-9 py-3 md:py-2 lg:py-5 text-black text-sm lg:text-lg" href="#">Get in touch</a>
+                </div>
             </div>
         </nav>
     )
