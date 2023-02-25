@@ -25,7 +25,7 @@ export default function Navbar() {
                         <li className="inline-block text-md lg:text-lg px-2 lg:px-4"><a className="text-grey" href="#">About</a></li>
                     </ul>
 
-                    <a className="bg-yellow font-serif inline-block leading-none no-underline mt-4 md:mt-0 px-4 lg:px-9 py-3 md:py-2 lg:py-5 text-black text-sm lg:text-lg" href="#">Get in touch</a>
+                    <a className="bg-yellow font-serif inline-block leading-none no-underline mt-4 md:mt-0 px-4 lg:px-7 py-3 md:py-2 lg:py-3 text-black text-sm lg:text-lg" href="#">Get in touch</a>
                 </div>
             </div>
         </nav>
