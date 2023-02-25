@@ -3,6 +3,7 @@ import JPMorgan from "../assets/logos/JPMorgan"
 import Visa from "../assets/logos/Visa"
 import Tinder from "../assets/logos/Tinder"
 import Samsung from "../assets/logos/Samsung"
+import Verizon from "../assets/logos/Verizon"
 
 export default function Logos() {
     return (
