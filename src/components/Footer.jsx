@@ -1,3 +1,7 @@
+import twitter from '../assets/social-icons/twitter.svg'
+import linkedin from '../assets/social-icons/linkedin.svg'
+import github from '../assets/social-icons/github.svg'
+
 export default function Footer() {
     return (
         <footer className="bg-darkgrey px-5 md:px-0 py-6">
@@ -7,17 +11,17 @@ export default function Footer() {
                 <ul className="leading-none">
                     <li className="inline-block px-2">
                         <a href="#">
-                            <img src="./src/assets/social-icons/twitter.svg" />
+                            <img src={twitter} />
                         </a>
                     </li>
                     <li className="inline-block px-2">
                         <a href="#">
-                            <img src="./src/assets/social-icons/linkedin.svg" />
+                            <img src={linkedin} />
                         </a>
                     </li>
                     <li className="inline-block px-2">
                         <a href="#">
-                            <img src="./src/assets/social-icons/github.svg" />
+                            <img src={github} />
                         </a>
                     </li>
                 </ul>
