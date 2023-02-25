@@ -1,3 +1,4 @@
+import Walmart from "../assets/logos/Walmart"
 import Tinder from "../assets/logos/Tinder"
 
 export default function Logos() {
